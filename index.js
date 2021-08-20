@@ -6,7 +6,7 @@ class CountdownTimer {
     }
   
     getRefs () {
-      const timerContainer = document.querySelector(this.selector)
+      const timerContainer = document.querySelector(this.selector);
       const timerDays = timerContainer.querySelector('[data-value="days"]');
       const timerHours = timerContainer.querySelector('[data-value="hours"]');
       const timerMins = timerContainer.querySelector('[data-value="mins"]');
